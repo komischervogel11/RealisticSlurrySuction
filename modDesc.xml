@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="98">
+    <author>komischervogel11</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Realistic Slurry Suction</en>
+        <de>Realistische Gülleabsaugung</de>
+    </title>
+    <description>
+        <en><![CDATA[
+This mod introduces a more realistic and slower slurry and digestate filling speed to the game.
+It adjusts the slurry suction rates for all standard slurry tanks,
+as well as those included in the Precision Farming mod, based on real-world manufacturer data.
+This makes the filling process more in line with actual farming practices.
+Additionally, the mod includes an API for Modders to easily implement custom Suction Rates in their Slurrytanks.
+(Please check: https://github.com/komischervogel11/RealisticSlurrySuction).
+        ]]></en>
+        <de><![CDATA[
+Diese Mod sorgt für eine realistischere und langsamere Gülle- sowie Gärreste-Füllgeschwindigkeit im Spiel.
+Alle Standard-Güllefässer sowie die Güllefässer, die im Precision Farming-Mod enthalten sind,
+wurden nun standardmäßig auf Basis realer Herstellerdaten angepasst.
+Dadurch wird der Füllprozess deutlich realistischer und entspricht besser den tatsächlichen landwirtschaftlichen Praktiken.
+Zusätzlich wird eine Mod-API bereitgestellt, mit der Modder ganz einfach Pumpgeschwindigkeiten eintragen können.
+(Dafür bitte https://github.com/komischervogel11/RealisticSlurrySuction).
+        ]]></de>
+    </description>
+    <multiplayerSupported>true</multiplayerSupported>
+    <iconFilename>RealisticSlurrySuctionIcon.dds</iconFilename>
+    <extraSourceFiles>
+        <sourceFile filename="RealisticSlurrySuction.lua"/>
+    </extraSourceFiles>
+</modDesc>

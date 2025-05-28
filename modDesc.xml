@@ -24,7 +24,7 @@ Zusätzlich wird eine Mod-API bereitgestellt, mit der Modder ganz einfach Pumpge
 (Dafür bitte https://github.com/komischervogel11/RealisticSlurrySuction).
         ]]></de>
     </description>
-    <multiplayerSupported>true</multiplayerSupported>
+    <multiplayer supported="true"/>
     <iconFilename>RealisticSlurrySuctionIcon.dds</iconFilename>
     <extraSourceFiles>
         <sourceFile filename="RealisticSlurrySuction.lua"/>
